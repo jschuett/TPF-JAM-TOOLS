@@ -75,12 +75,12 @@ You have completed all pre-installations and are up to date.
 4. by Mail invitation from 'Bandleader', you get all the needed information, like server address, room, and link to Livelab
 6. open Reaper, then choose "Setting" -> "Device" and select your 'Aggregate TPF-JAM-TOOL'.
 7. the left toolbar of the Reaper template contains all the necessary functions for a telematic connection.
-8. press the button 'tpf-client on'
-9. go to Settings in 'tpf-client', and configure the audio backend according to your Aggregate.
+8. do not forget to unmute your local microphone (your microphone is muted by default).
+9. press the button 'tpf-client on'
+10. go to Settings in 'tpf-client', and configure the audio backend according to your Aggregate.
   
 <img width="620" alt="Bildschirmfoto 2024-06-13 um 15 43 45" src="https://github.com/jschuett/tpf-jam-reaper-tool/blob/main/Pictures/tpf-client.png">
-
-    
+   
 11. before connecting to the server, check your inputs in Reaper and unmute your local inputs 1 and 2 (the channels in tpf-client are green flickering)
 12. to connect to the server, click the top left square in the tpf-client. If connected, it will turn blue. 
 13. one by one, all fellow musicians/locations will appear. You can connect by clicking the square on the left. You should now hear them all.
