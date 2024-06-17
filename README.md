@@ -71,23 +71,25 @@ You have completed all pre-installations and are up to date.
 3. create an aggregate (Mac) and name it as shown in the following picture. The correct order of components is crucial.
    <img width="1463" alt="Apple_Aggregate_TPF-JAM-TOOL" src="https://github.com/jschuett/tpf-jam-reaper-tool/blob/main/Pictures/tpf-jam-tool_aggregate.png">
 
-
 4. by Mail invitation from 'Bandleader', you get all the needed information, like server address, room, and link to Livelab
-6. open Reaper, then choose "Setting" -> "Device" and select your 'Aggregate TPF-JAM-TOOL'.
-7. the left toolbar of the Reaper template contains all the necessary functions for a telematic connection.
-8. do not forget to unmute your local microphone (your microphone is muted by default).
-9. press the button 'tpf-client on'
-10. go to Settings in 'tpf-client', and configure the audio backend according to your Aggregate.
-    
-  
+5. open Reaper, then choose "Setting" -> "Device" and select your 'Aggregate TPF-JAM-TOOL'.
+6. the left toolbar of the Reaper template contains all the necessary functions for a telematic connection.
+7. press the button 'tpf-client on'
+8. go to Settings in 'tpf-client', and add your <location-name> and the <jamming-room-name>.
+      
 <img width="620" alt="Bildschirmfoto 2024-06-13 um 15 43 45" src="https://github.com/jschuett/tpf-jam-reaper-tool/blob/main/Pictures/tpf-client.png">
-   
-11. before connecting to the server, check your inputs in Reaper and unmute your local inputs 1 and 2 (the channels in tpf-client are green flickering)
-12. to connect to the server, click the top left square in the tpf-client. If connected, it will turn blue. 
-13. one by one, all fellow musicians/locations will appear. You can connect by clicking the square on the left. You should now hear them all.
-14. click "LiveLab on' in the left toolbar of Reaper, and Safari will open. Type in the LiveLab URL you received from the bandleader. In the settings of LiveLab choose 'no audio'. Then click 'start'. You should now be connected by video. 
+  
+9. before connecting to the server, check your inputs in Reaper and unmute your local inputs 1 and 2 (the channels in tpf-client are green flickering)
+10. to connect to the server, click the top left square in the tpf-client. If connected, it will turn blue. 
+11. one by one, all fellow musicians/locations will appear. You can connect by clicking the square on the left. You should now hear them all.
+12. click "LiveLab on' in the left toolbar of Reaper, and Safari will open. Type in the LiveLab URL you received from the bandleader. In the settings of LiveLab choose 'no audio'. 13. then click 'start'. You should now be connected by video. 
 
 (set Google-Chrome.app as your main Browser)
+
+Now, your audio should be connected to the TPF client and all other musicians. You are connected to video via LiveLab in the Chrome browser. 
+So, happy jamming...
+
+---
 
 ### Closing the session
 
@@ -97,8 +99,6 @@ You have completed all pre-installations and are up to date.
 
 
 For more detailed information, visit Wiki (https://github.com/jschuett/tpf-jam-reaper-tool/wiki) -->, which is still in progress!
-
-
 
 ----
 ## Bugs
@@ -123,7 +123,7 @@ For any bug, issue, or suggestion, please open an issue
 - OpenTrack (win/linux)
 - SAKHeadTracker <https://spatialaudiokit.github.io/headtracker/>
 
-
+---
 
 #### NOTE to REAPER: 
 Reaper is not free, but you get 60 days of evaluation free, with full functionality and no strings attached. All license purchases are final.
@@ -136,11 +136,9 @@ Please donate them when you are happy with all these tools!
 
 ----
 
-
 ## Authors
 
 Johannes Schuett / Roman Haefeli / Matthias Ziegler / Patrick Mueller 
-
 
 ----
 
@@ -148,7 +146,5 @@ Johannes Schuett / Roman Haefeli / Matthias Ziegler / Patrick Mueller
 GPL 3.0 (see LICENSE.txt)
 
 -----
-
-
 
 ©2024 [ICST/ZHdK ](https://www.zhdk.ch/forschung/icst)Switzerland
