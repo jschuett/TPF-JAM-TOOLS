@@ -92,11 +92,11 @@ You have completed all pre-installations and are up to date.
 ### Closing the session
 
 1. click 'tpf-client off'. A message will remind you to disconnect all connections before.
-2. press FPHD off and livelab off
+2. press FPHD and LiveLab off
 3. close your Reaper session
 
 
-For more detailed information, visit Wiki (Link) -->, which is coming soon!
+For more detailed information, visit Wiki (https://github.com/jschuett/tpf-jam-reaper-tool/wiki) -->, which is currently still in progress!
 
 
 
