@@ -83,10 +83,9 @@ You have completed all pre-installations and are up to date.
 10. to connect to the server, click the top left square in the tpf-client. If connected, it will turn blue. 
 11. one by one, all fellow musicians/locations will appear. You can connect by clicking the square on the left. You should now hear them all.
 12. click "LiveLab on' in the left toolbar of Reaper, and Safari will open. Type in the LiveLab URL you received from the bandleader. In the settings of LiveLab choose 'no audio'. 13. then click 'start'. You should now be connected by video. 
+    (set Google-Chrome.app as your main Browser)
 
-(set Google-Chrome.app as your main Browser)
-
-Now, your audio should be connected to the TPF client and all other musicians. You are connected to video via LiveLab in the Chrome browser. 
+Your audio should be connected to the TPF client and all other musicians/locations. You are connected to video via LiveLab in the Chrome browser. 
 So, happy jamming...
 
 ---
