@@ -1,9 +1,5 @@
 # TPF-JAM-REAPER
 ![TPF-JAM-TOOL - Overview](https://github.com/jschuett/tpf-jam-reaper-tool/blob/main/Pictures/tpf-jam-reaper-tool.jpg)
-https://github.com/jschuett/tpf-jam-reaper-tool/blob/main/Pictures/tpf-jam-reaper-tool.jpg
-Pictures/tpf-jam-reaper-tool.jpg
-https://github.com/jschuett/tpf-jam-reaper/assets/773797/bb3272a7-cff0-4a40-b7f7-28fcc678058e
-Fig 1: TPF-JAM-REAPER in action.
 
 ## About
 
@@ -22,7 +18,7 @@ And now .... let's jam...
 -----
 
 # What can TPF-JAM-REAPER do?
-![Bildschirmfoto 2024-06-12 um 14 34 10](https://github.com/jschuett/tpf-jam-reaper/assets/773797/b4e76b2e-6555-4b45-8aae-14725feeb9d3)
+![Bildschirmfoto 2024-06-12 um 14 34 10](https://github.com/jschuett/tpf-jam-reaper-tool/blob/main/Pictures/signalflow.png)
 
 - Low-latency bidirectional telematic jamming over Lan
 - Two Inputs (Mic/Inst) sending to max 16-Destinations/Locations
@@ -73,7 +69,7 @@ You have completed all pre-installations and are up to date.
 	- Instrument (Keyboard) (CH2)
 2. be sure that your hardware works correctly with your Mac/PC
 3. create an aggregate (Mac) and name it as shown in the following picture. The correct order of components is crucial.
-   <img width="1463" alt="Apple_Aggregate_TPF-JAM-TOOL" src="https://github.com/jschuett/tpf-jam-reaper/assets/773797/92645938-7ed3-4cb8-abf4-73c7acf25b81">
+   <img width="1463" alt="Apple_Aggregate_TPF-JAM-TOOL" src="https://github.com/jschuett/tpf-jam-reaper-tool/blob/main/Pictures/tpf-jam-tool_aggregate.png">
 
 
 4. by Mail invitation from 'Bandleader', you get all the needed information, like server address, room, and link to Livelab
@@ -82,7 +78,7 @@ You have completed all pre-installations and are up to date.
 8. press the button 'tpf-client on'
 9. go to Settings in 'tpf-client', and configure the audio backend according to your Aggregate.
   
-<img width="620" alt="Bildschirmfoto 2024-06-13 um 15 43 45" src="https://github.com/jschuett/tpf-jam-reaper/assets/773797/8d78c821-213e-4600-9d38-51bcb5ace7b5">
+<img width="620" alt="Bildschirmfoto 2024-06-13 um 15 43 45" src="https://github.com/jschuett/tpf-jam-reaper-tool/blob/main/Pictures/tpf-client.png">
 
     
 11. before connecting to the server, check your inputs in Reaper and unmute your local inputs 1 and 2 (the channels in tpf-client are green flickering)
@@ -99,7 +95,7 @@ You have completed all pre-installations and are up to date.
 3. close your Reaper session
 
 
-For more detailed information, visit Wiki (https://github.com/jschuett/tpf-jam-reaper-tool/wiki) -->, which is currently still in progress!
+For more detailed information, visit Wiki (https://github.com/jschuett/tpf-jam-reaper-tool/wiki) -->, which is still in progress!
 
 
 
