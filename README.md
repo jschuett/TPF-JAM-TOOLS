@@ -86,7 +86,7 @@ You have completed all pre-installations and are up to date.
 12. to connect to the server, click the top left square in the tpf-client. If connected, it will turn blue. 
 13. one by one, all fellow musicians/locations will appear. You can connect by clicking the square on the left. You should now hear them all.
 14. click "LiveLab on' in the left toolbar of Reaper, and Safari will open. Type in the LiveLab URL you received from the bandleader. In the settings of LiveLab choose 'no audio'. Then click 'start'. You should now be connected by video. 
-
+(set Google-Chrome.app as your main Browser)
 
 ### Closing the session
 
