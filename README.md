@@ -78,6 +78,7 @@ You have completed all pre-installations and are up to date.
 8. do not forget to unmute your local microphone (your microphone is muted by default).
 9. press the button 'tpf-client on'
 10. go to Settings in 'tpf-client', and configure the audio backend according to your Aggregate.
+    
   
 <img width="620" alt="Bildschirmfoto 2024-06-13 um 15 43 45" src="https://github.com/jschuett/tpf-jam-reaper-tool/blob/main/Pictures/tpf-client.png">
    
