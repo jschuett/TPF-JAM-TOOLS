@@ -37,7 +37,7 @@ And now .... let's jam...
 ---
 
 
-### You can download the TPF-JAM-REAPER here:[Download](https://github.com/jschuett/tpf-jam-reaper-tool/releases/tag/v1.5.6b)
+### You can download the TPF-JAM-REAPER here:[Download](https://github.com/jschuett/tpf-jam-reaper-tool/releases/tag/v1.5.6)
 #### NOTE:
 tpf-jam-reaper is for testing and is still under development!
 Please read the [installation](https://github.com/jschuett/tpf-jam-reaper-tool/wiki/Installation) instructions!
