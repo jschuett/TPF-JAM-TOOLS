@@ -1,6 +1,7 @@
 # TPF-JAM-TOOLS
-![Bildschirmfoto 2024-06-12 um 14 34 10](https://github.com/jschuett/tpf-jam-reaper/assets/773797/b4e76b2e-6555-4b45-8aae-14725feeb9d3)
 
+![TPF-JAM-TOOL - Overview](https://github.com/jschuett/tpf-jam-reaper/assets/773797/bb3272a7-cff0-4a40-b7f7-28fcc678058e)
+Fig 1: TPF-JAM-REAPER in action.
 
 ## About
 
@@ -19,7 +20,7 @@ And now .... let's jam...
 -----
 
 # What can TPF-JAM-TOOLS do?
-![Bildschirmfoto 2024-06-12 um 14 34 10](https://github.com/jschuett/TPF-JAM-TOOLS-tool/blob/main/Pictures/signalflow.png)
+![Bildschirmfoto 2024-06-12 um 14 34 10](https://github.com/jschuett/tpf-jam-reaper/assets/773797/b4e76b2e-6555-4b45-8aae-14725feeb9d3)
 
 - Low-latency bidirectional telematic jamming over Lan
 - Two Inputs (Mic/Inst) sending to max 16-Destinations/Locations
