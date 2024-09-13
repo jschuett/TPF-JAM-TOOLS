@@ -1,4 +1,4 @@
-# TPF-JAM-REAPER
+# TPF-JAM-TOOLS
 ![TPF-JAM-TOOL - Overview](https://github.com/jschuett/tpf-jam-reaper-tool/blob/main/Pictures/tpf-jam-reaper-tool.jpg)
 
 ## About
