@@ -1,5 +1,5 @@
 # TPF-JAM-TOOLS
-![TPF-JAM-TOOL - Overview](https://github.com/jschuett/TPF-JAM-REAPER-tool/blob/main/Pictures/TPF-JAM-REAPER-tool.jpg)
+![Bildschirmfoto 2024-06-12 um 14 34 10](https://github.com/jschuett/tpf-jam-reaper/assets/773797/b4e76b2e-6555-4b45-8aae-14725feeb9d3)
 
 
 ## About
