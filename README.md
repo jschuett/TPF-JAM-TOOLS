@@ -38,7 +38,7 @@ And now .... let's jam...
 ### You can download the TPF-JAM-TOOL here: -> [Download](https://github.com/jschuett/tpf-jam-tool/releases/tag/v1.8)
 #### NOTE:
 TPF-JAM-TOOL is for testing and is still under development!
-Please read the [installation](https://github.com/jschuett/TPF-JAM-TOOL-tool/wiki/Installation) instructions!
+Please read the [installation](https://github.com/jschuett/tpf-jam-tool/wiki/Installation) instructions!
 
 ---
 
