@@ -2,10 +2,6 @@
 
 ![TPF-JAM-TOOL - Overview](https://github.com/jschuett/tpf-jam-reaper/assets/773797/bb3272a7-cff0-4a40-b7f7-28fcc678058e)
 Fig 1: TPF-JAM-TOOL in action.
-
-# TPF-JAM-TOOL
-![TPF-JAM-TOOL - Overview](https://github.com/jschuett/tpf-jam-reaper/assets/773797/bb3272a7-cff0-4a40-b7f7-28fcc678058e)
-Fig 1: TPF-JAM-TOOL in action.
 ## About
 
 TPF-JAM-TOOL is a low-latency 'jamming tool' that connects sixteen different jamming partners/locations. (Mac only)  
