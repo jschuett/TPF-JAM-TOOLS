@@ -1,12 +1,15 @@
-# TPF-JAM-TOOLS
+# TPF-JAM-TOOL
 
 ![TPF-JAM-TOOL - Overview](https://github.com/jschuett/tpf-jam-reaper/assets/773797/bb3272a7-cff0-4a40-b7f7-28fcc678058e)
-Fig 1: TPF-JAM-REAPER in action.
+Fig 1: TPF-JAM-TOOL in action.
 
+# TPF-JAM-TOOL
+![TPF-JAM-TOOL - Overview](https://github.com/jschuett/tpf-jam-reaper/assets/773797/bb3272a7-cff0-4a40-b7f7-28fcc678058e)
+Fig 1: TPF-JAM-TOOL in action.
 ## About
 
-TPF-JAM-TOOLS is a low-latency 'jamming tool' that connects sixteen different jamming partners/locations. (Mac only)  
-TPF-JAM-TOOLS further develops the previous tools '[tpf-tools](https://telematicperformance.com/tools/)' and 'TPF-JAM-BASIC'. [Reaper.fm](https://www.reaper.fm/) is one of the most widely used digital audio workstations (DAW) today. Reaper, as a DAW, is our choice because most of the parameters in Reaper can be operated via scripts ([LuaScript](https://dail8859.github.io/LuaScript/)) and are available for retrieval, as well as having early audio routing. The idea behind the TPF-JAM-TOOLS is to provide a very easy-to-use bundle with a wide variety of possibilities. In connection with the SNSF research project '[spatial-dis-continuities-in-telematic-performances](https://networkperformance.space)', many features have been incorporated into this tool. 
+TPF-JAM-TOOL is a low-latency 'jamming tool' that connects sixteen different jamming partners/locations. (Mac only)  
+TPF-JAM-TOOL further develops the previous tools '[tpf-tools](https://telematicperformance.com/tools/)' and 'TPF-JAM-BASIC'. [Reaper.fm](https://www.reaper.fm/) is one of the most widely used digital audio workstations (DAW) today. Reaper, as a DAW, is our choice because most of the parameters in Reaper can be operated via scripts ([LuaScript](https://dail8859.github.io/LuaScript/)) and are available for retrieval, as well as having early audio routing. The idea behind the TPF-JAM-TOOL is to provide a very easy-to-use bundle with a wide variety of possibilities. In connection with the SNSF research project '[spatial-dis-continuities-in-telematic-performances](https://networkperformance.space)', many features have been incorporated into this tool. 
 Over the years, we spent many hours communicating over Zoom as a team of artists and researchers, which always tired us out quickly from an acoustic point of view. After experimenting with Ambisonics and Binaural rendering, many of us became less tired because a more natural hearing sensation set in, especially in music making.
 
 This was the primary motivation to integrate the 3D audio research '[Ambisonics at ICST](https://ambisonics.ch/)' into the telematic applications in the [spatial-dis-continuities-in-telematic-performances](https://www.zhdk.ch/en/researchproject/575742) project.
@@ -19,7 +22,7 @@ And now .... let's jam...
 
 -----
 
-# What can TPF-JAM-TOOLS do?
+# What can TPF-JAM-TOOL do?
 ![Bildschirmfoto 2024-06-12 um 14 34 10](https://github.com/jschuett/tpf-jam-reaper/assets/773797/b4e76b2e-6555-4b45-8aae-14725feeb9d3)
 
 - Low-latency bidirectional telematic jamming over Lan
@@ -38,16 +41,16 @@ And now .... let's jam...
 ---
 
 
-### You can download the TPF-JAM-TOOLS here: -> [Download](https://github.com/jschuett/TPF-JAM-TOOLS-tool/releases/tag/v1.5.6)
+### You can download the TPF-JAM-TOOL here: -> [Download](https://github.com/jschuett/TPF-JAM-TOOL-tool/releases/tag/v1.5.6)
 #### NOTE:
-TPF-JAM-TOOLS is for testing and is still under development!
-Please read the [installation](https://github.com/jschuett/TPF-JAM-TOOLS-tool/wiki/Installation) instructions!
+TPF-JAM-TOOL is for testing and is still under development!
+Please read the [installation](https://github.com/jschuett/TPF-JAM-TOOL-tool/wiki/Installation) instructions!
 
 ---
 
 ## Prerequisites
 Make sure to have all these Applications pre-installed:
-- [TPF-JAM-TOOLS ]()
+- [TPF-JAM-TOOL ]()
 - [TPF-Client_v2.0.17+](https://github.com/zhdk/tpf-client)
 - [ICST Ambisonics Plugins](https://github.com/schweizerweb/icst-ambisonics-plugins/wiki)
 ##### NOTE: The LV2 version of these Plugins is experimental and not jet-ready!!
@@ -56,7 +59,7 @@ Make sure to have all these Applications pre-installed:
 - [BlackHole](https://github.com/ExistentialAudio/BlackHole)
   BlackHole is a modern macOS virtual audio loopback driver that allows applications to pass audio to other applications with zero additional latency. Donate $10.
 ##### NOTE: 
-After downloading, open the dmg file and drag the Reaper.app into the folder '/Applications/TPF-JAM-TOOLS'. Open the Reaper.app with Ctrl-click or right-click.
+After downloading, open the dmg file and drag the Reaper.app into the folder '/Applications/TPF-JAM-TOOL'. Open the Reaper.app with Ctrl-click or right-click.
 
 ---
 
@@ -71,7 +74,8 @@ You have completed all pre-installations and are up to date.
 	- Instrument (Keyboard) (CH2)
 2. be sure that your hardware works correctly with your Mac/PC
 3. create an aggregate (Mac) and name it as shown in the following picture. The correct order of components is crucial.
-   <img width="1463" alt="Apple_Aggregate_TPF-JAM-TOOL" src="https://github.com/jschuett/TPF-JAM-TOOLS-tool/blob/main/Pictures/tpf-jam-tool_aggregate.png">
+    <img width="1463" alt="Apple_Aggregate_TPF-JAM-TOOL" src="https://github.com/jschuett/tpf-jam-reaper/assets/773797/92645938-7ed3-4cb8-abf4-73c7acf25b81">
+
 
 4. by Mail invitation from 'Bandleader', you get all the needed information, like server address, room, and link to Livelab
 5. open Reaper, then choose "Setting" -> "Device" and select your 'Aggregate TPF-JAM-TOOL'.
@@ -79,7 +83,8 @@ You have completed all pre-installations and are up to date.
 7. press the button 'tpf-client on'
 8. go to Settings in 'tpf-client', and add your <location-name> and the <jamming-room-name>.
       
-<img width="620" alt="Bildschirmfoto 2024-06-13 um 15 43 45" src="https://github.com/jschuett/TPF-JAM-TOOLS-tool/blob/main/Pictures/tpf-client.png">
+<img width="620" alt="Bildschirmfoto 2024-06-13 um 15 43 45" src="https://github.com/jschuett/tpf-jam-reaper/assets/773797/8d78c821-213e-4600-9d38-51bcb5ace7b5">
+
   
 9. before connecting to the server, check your inputs in Reaper and unmute your local inputs 1 and 2 (the channels in tpf-client are green flickering)
 10. to connect to the server, click the top left square in the tpf-client. If connected, it will turn blue. 
@@ -99,12 +104,12 @@ So, happy jamming...
 3. close your Reaper session
 
 
-For more detailed information, visit Wiki (https://github.com/jschuett/TPF-JAM-TOOLS-tool/wiki) -->, which is still in progress!
+For more detailed information, visit Wiki (https://github.com/jschuett/TPF-JAM-TOOL-tool/wiki) -->, which is still in progress!
 
 ----
 ## Bugs
 For any bug, issue, or suggestion, please open an issue
-[here](https://github.com/jschuett/TPF-JAM-TOOLS/discussions).
+[here](https://github.com/jschuett/TPF-JAM-TOOL/discussions).
 
 ---
 
