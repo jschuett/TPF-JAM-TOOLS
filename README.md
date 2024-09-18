@@ -1,6 +1,5 @@
 # TPF-JAM-TOOL
-![TPF-JAM-TOOL - Overview](https://github.com/jschuett/tpf-jam-reaper/assets/773797/bb3272a7-cff0-4a40-b7f7-28fcc678058e)
-Fig 1: TPF-JAM-TOOL in action.
+
 ## About
 
 TPF-JAM-TOOL is a low-latency 'jamming tool' that connects sixteen different jamming partners/locations. (Mac only)  
@@ -18,7 +17,7 @@ And now .... let's jam...
 -----
 
 # What can TPF-JAM-TOOL do?
-![Bildschirmfoto 2024-06-12 um 14 34 10](https://github.com/jschuett/tpf-jam-reaper/assets/773797/b4e76b2e-6555-4b45-8aae-14725feeb9d3)
+
 
 - Low-latency bidirectional telematic jamming over Lan
 - Two Inputs (Mic/Inst) sending to max 16-Destinations/Locations
@@ -69,22 +68,16 @@ You have completed all pre-installations and are up to date.
 	- Instrument (Keyboard) (CH2)
 2. be sure that your hardware works correctly with your Mac/PC
 3. create an aggregate (Mac) and name it as shown in the following picture. The correct order of components is crucial.
-    <img width="1463" alt="Apple_Aggregate_TPF-JAM-TOOL" src="https://github.com/jschuett/tpf-jam-reaper/assets/773797/92645938-7ed3-4cb8-abf4-73c7acf25b81">
-
-
 4. by Mail invitation from 'Bandleader', you get all the needed information, like server address, room, and link to Livelab
 5. open Reaper, then choose "Setting" -> "Device" and select your 'Aggregate TPF-JAM-TOOL'.
 6. the left toolbar of the Reaper template contains all the necessary functions for a telematic connection.
 7. press the button 'tpf-client on'
 8. go to Settings in 'tpf-client', and add your <location-name> and the <jamming-room-name>.
-      
-<img width="620" alt="Bildschirmfoto 2024-06-13 um 15 43 45" src="https://github.com/jschuett/tpf-jam-reaper/assets/773797/8d78c821-213e-4600-9d38-51bcb5ace7b5">
-
-  
 9. before connecting to the server, check your inputs in Reaper and unmute your local inputs 1 and 2 (the channels in tpf-client are green flickering)
 10. to connect to the server, click the top left square in the tpf-client. If connected, it will turn blue. 
 11. one by one, all fellow musicians/locations will appear. You can connect by clicking the square on the left. You should now hear them all.
-12. click "LiveLab on' in the left toolbar of Reaper, and Safari will open. Type in the LiveLab URL you received from the bandleader. In the settings of LiveLab choose 'no audio'. 13. then click 'start'. You should now be connected by video. 
+12. click "LiveLab on' in the left toolbar of Reaper, and Safari will open. Type in the LiveLab URL you received from the bandleader. In the settings of LiveLab choose 'no audio'.
+13. then click 'start'. You should now be connected by video. 
     (set Google-Chrome.app as your main Browser)
 
 Your audio should be connected to the TPF client and all other musicians/locations. You are connected to video via LiveLab in the Chrome browser. 
