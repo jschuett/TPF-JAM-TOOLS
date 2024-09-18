@@ -1,119 +1,14 @@
+# TPF-JAM-TOOL
+![TPF-JAM-TOOL - Overview](https://github.com/jschuett/tpf-jam-reaper/assets/773797/bb3272a7-cff0-4a40-b7f7-28fcc678058e)
+Fig 1: TPF-JAM-TOOL in action.
+## About
 
-Skip to content
-Navigation Menu
+TPF-JAM-TOOL is a low-latency 'jamming tool' that connects sixteen different jamming partners/locations. (Mac only)  
+TPF-JAM-TOOL further develops the previous tools '[tpf-tools](https://telematicperformance.com/tools/)' and 'TPF-JAM-BASIC'. [Reaper.fm](https://www.reaper.fm/) is one of the most widely used digital audio workstations (DAW) today. Reaper, as a DAW, is our choice because most of the parameters in Reaper can be operated via scripts ([LuaScript](https://dail8859.github.io/LuaScript/)) and are available for retrieval, as well as having early audio routing. The idea behind the TPF-JAM-TOOL is to provide a very easy-to-use bundle with a wide variety of possibilities. In connection with the SNSF research project '[spatial-dis-continuities-in-telematic-performances](https://networkperformance.space)', many features have been incorporated into this tool. 
+Over the years, we spent many hours communicating over Zoom as a team of artists and researchers, which always tired us out quickly from an acoustic point of view. After experimenting with Ambisonics and Binaural rendering, many of us became less tired because a more natural hearing sensation set in, especially in music making.
 
-    jschuett
-    /
-    tpf-jam-tool
-
-Code
-Issues 2
-Pull requests
-Discussions
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-Editing README.md in tpf-jam-tool
-Breadcrumbs
-
-    tpf-jam-tool
-
-/
-in
-main
-
-Indent mode
-Indent size
-Line wrap mode
-Editing README.md file contents
-Selection deleted
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
+This was the primary motivation to integrate the 3D audio research '[Ambisonics at ICST](https://ambisonics.ch/)' into the telematic applications in the [spatial-dis-continuities-in-telematic-performances](https://www.zhdk.ch/en/researchproject/575742) project.
+The tools are freely available, and while the installation may take some time, it's a worthwhile investment. 
 The TPF-Client application handles firewall and IT settings, allowing you to focus on immediately connecting with other musicians and starting to jam. The digital audio workstation "Reaper 7.16"(the newest) is your digital mixing console. You can mix the incoming signals in a virtual room with Reaper and the pre-installed third-party plugins.
 Of course, the mix can also be recorded directly in Reaper, providing an instant recording of your jamming session.
 
@@ -123,6 +18,7 @@ And now .... let's jam...
 -----
 
 # What can TPF-JAM-TOOL do?
+![Bildschirmfoto 2024-06-12 um 14 34 10](https://github.com/jschuett/tpf-jam-reaper/assets/773797/b4e76b2e-6555-4b45-8aae-14725feeb9d3)
 
 - Low-latency bidirectional telematic jamming over Lan
 - Two Inputs (Mic/Inst) sending to max 16-Destinations/Locations
@@ -140,8 +36,7 @@ And now .... let's jam...
 ---
 
 
-### You can download the TPF-JAM-TOOL here: -> comming soon
-
+### You can download the TPF-JAM-TOOL here: -> [Download](https://github.com/jschuett/TPF-JAM-TOOL-tool/releases/tag/v1.5.6)
 #### NOTE:
 TPF-JAM-TOOL is for testing and is still under development!
 Please read the [installation](https://github.com/jschuett/TPF-JAM-TOOL-tool/wiki/Installation) instructions!
@@ -150,17 +45,14 @@ Please read the [installation](https://github.com/jschuett/TPF-JAM-TOOL-tool/wik
 
 ## Prerequisites
 Make sure to have all these Applications pre-installed:
-- [TPF-JAM-TOOL ]() in development
+- [TPF-JAM-TOOL ]()
 - [TPF-Client_v2.0.17+](https://github.com/zhdk/tpf-client)
 - [ICST Ambisonics Plugins](https://github.com/schweizerweb/icst-ambisonics-plugins/wiki)
-- Try the unofficial version v3.0.0.3
-
 ##### NOTE: The LV2 version of these Plugins is experimental and not jet-ready!!
 - [IEM-Plugin-Suite](https://plugins.iem.at/)
 - [Reaper.app ](https://www.reaper.fm/download.php)
 - [BlackHole](https://github.com/ExistentialAudio/BlackHole)
   BlackHole is a modern macOS virtual audio loopback driver that allows applications to pass audio to other applications with zero additional latency. Donate $10.
-
 ##### NOTE: 
 After downloading, open the dmg file and drag the Reaper.app into the folder '/Applications/TPF-JAM-TOOL'. Open the Reaper.app with Ctrl-click or right-click.
 
@@ -177,16 +69,22 @@ You have completed all pre-installations and are up to date.
 	- Instrument (Keyboard) (CH2)
 2. be sure that your hardware works correctly with your Mac/PC
 3. create an aggregate (Mac) and name it as shown in the following picture. The correct order of components is crucial.
+    <img width="1463" alt="Apple_Aggregate_TPF-JAM-TOOL" src="https://github.com/jschuett/tpf-jam-reaper/assets/773797/92645938-7ed3-4cb8-abf4-73c7acf25b81">
+
+
 4. by Mail invitation from 'Bandleader', you get all the needed information, like server address, room, and link to Livelab
 5. open Reaper, then choose "Setting" -> "Device" and select your 'Aggregate TPF-JAM-TOOL'.
 6. the left toolbar of the Reaper template contains all the necessary functions for a telematic connection.
 7. press the button 'tpf-client on'
-8. go to Settings in 'tpf-client', and add your <location-name> and the <jamming-room-name>. 
+8. go to Settings in 'tpf-client', and add your <location-name> and the <jamming-room-name>.
+      
+<img width="620" alt="Bildschirmfoto 2024-06-13 um 15 43 45" src="https://github.com/jschuett/tpf-jam-reaper/assets/773797/8d78c821-213e-4600-9d38-51bcb5ace7b5">
+
+  
 9. before connecting to the server, check your inputs in Reaper and unmute your local inputs 1 and 2 (the channels in tpf-client are green flickering)
 10. to connect to the server, click the top left square in the tpf-client. If connected, it will turn blue. 
 11. one by one, all fellow musicians/locations will appear. You can connect by clicking the square on the left. You should now hear them all.
-12. click "LiveLab on' in the left toolbar of Reaper, and Safari will open. Type in the LiveLab URL you received from the bandleader. In the settings of LiveLab choose 'no audio'.
-13. then click 'start'. You should now be connected by video. 
+12. click "LiveLab on' in the left toolbar of Reaper, and Safari will open. Type in the LiveLab URL you received from the bandleader. In the settings of LiveLab choose 'no audio'. 13. then click 'start'. You should now be connected by video. 
     (set Google-Chrome.app as your main Browser)
 
 Your audio should be connected to the TPF client and all other musicians/locations. You are connected to video via LiveLab in the Chrome browser. 
@@ -196,10 +94,57 @@ So, happy jamming...
 
 ### Closing the session
 
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-Attach files by dragging & dropping, selecting or pasting them.
-Home · jschuett/tpf-jam-tool Wiki
+1. click 'tpf-client off'. A message will remind you to disconnect all connections before.
+2. press FPHD and LiveLab off
+3. close your Reaper session
 
+
+For more detailed information, visit Wiki (https://github.com/jschuett/TPF-JAM-TOOL-tool/wiki) -->, which is still in progress!
+
+----
+## Bugs
+For any bug, issue, or suggestion, please open an issue
+[here](https://github.com/jschuett/TPF-JAM-TOOL/discussions).
+
+---
+
+## Links and Referencing
+- [REAPER (DAW)](https://www.reaper.fm/)
+	- [SWS/S&M](https://www.sws-extension.org/)
+	- [ReaPack](https://reapack.com/)
+- IEM Plugin Suite <https://plugins.iem.at/>
+- ICST Ambisonics Plugins <https://github.com/schweizerweb/icst-ambisonics-plugins/wiki>
+- TPF-Client 2.0+ <https://github.com/zhdk/tpf-client>
+#### Optional
+#### Head Tracker Tools:
+- NX Head Tracker Waves <https://www.waves.com/hardware/nx-head-tracker>
+- USB Head Tracker <https://supperware.co.uk/headtracker-overview>
+- nvsonic <https://github.com/trsonic/nvsonic-head-tracker>
+- RC HeadTracker <https://github.com/dlktdr/HeadTracker>
+- OpenTrack (win/linux)
+- SAKHeadTracker <https://spatialaudiokit.github.io/headtracker/>
+
+---
+
+#### NOTE to REAPER: 
+Reaper is not free, but you get 60 days of evaluation free, with full functionality and no strings attached. All license purchases are final.
+If you own multiple computers, you may install the same license key on all of them as long as you only use REAPER on one computer at a time.
+[Purchasing Reaper](https://www.reaper.fm/purchase.php)
+We have to thank all these wonderful resources:
+- [SWS/S&M EXTENSION](https://www.sws-extension.org/)
+- [ReaPack](https://reapack.com/)
+Please donate them when you are happy with all these tools!
+
+----
+
+## Authors
+
+Johannes Schuett / Roman Haefeli / Matthias Ziegler / Patrick Mueller 
+
+----
+
+## License
+GPL 3.0 (see LICENSE.txt)
 
 -----
 
