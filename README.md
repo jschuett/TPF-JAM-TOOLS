@@ -37,7 +37,8 @@ And now .... let's jam...
 ---
 
 
-### You can download the TPF-JAM-TOOL here: -> [Download](https://github.com/jschuett/TPF-JAM-TOOL-tool/releases/tag/v1.5.6)
+### You can download the TPF-JAM-TOOL here: -> comming soon
+
 #### NOTE:
 TPF-JAM-TOOL is for testing and is still under development!
 Please read the [installation](https://github.com/jschuett/TPF-JAM-TOOL-tool/wiki/Installation) instructions!
@@ -46,14 +47,17 @@ Please read the [installation](https://github.com/jschuett/TPF-JAM-TOOL-tool/wik
 
 ## Prerequisites
 Make sure to have all these Applications pre-installed:
-- [TPF-JAM-TOOL ]()
+- [TPF-JAM-TOOL ]() in development
 - [TPF-Client_v2.0.17+](https://github.com/zhdk/tpf-client)
 - [ICST Ambisonics Plugins](https://github.com/schweizerweb/icst-ambisonics-plugins/wiki)
+- Try the unofficial version v3.0.0.3
+
 ##### NOTE: The LV2 version of these Plugins is experimental and not jet-ready!!
 - [IEM-Plugin-Suite](https://plugins.iem.at/)
 - [Reaper.app ](https://www.reaper.fm/download.php)
 - [BlackHole](https://github.com/ExistentialAudio/BlackHole)
   BlackHole is a modern macOS virtual audio loopback driver that allows applications to pass audio to other applications with zero additional latency. Donate $10.
+
 ##### NOTE: 
 After downloading, open the dmg file and drag the Reaper.app into the folder '/Applications/TPF-JAM-TOOL'. Open the Reaper.app with Ctrl-click or right-click.
 
