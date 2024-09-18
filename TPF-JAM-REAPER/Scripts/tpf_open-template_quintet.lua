@@ -1,5 +1,5 @@
 -- Path to the project template file
-local template_path = "/Applications/TPF-JAM-REAPER/ProjectTemplates/tpf-jam-quintet.RPP"
+local template_path = "/Applications/TPF-JAM-TOOL/ProjectTemplates/tpf-jam-quintet.RPP"
 
 -- Check if the template file exists
 local file = io.open(template_path, "r")
