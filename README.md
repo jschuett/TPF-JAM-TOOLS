@@ -92,7 +92,7 @@ So, happy jamming...
 3. close your Reaper session
 
 
-For more detailed information, visit Wiki (https://github.com/jschuett/TPF-JAM-TOOL-tool/wiki) -->, which is still in progress!
+For more detailed information, visit the Wiki https://github.com/jschuett/tpf-jam-tool/wiki -->, which is still in progress!
 
 ----
 ## Bugs
