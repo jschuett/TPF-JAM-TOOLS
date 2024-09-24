@@ -35,7 +35,7 @@ And now .... let's jam...
 ---
 
 
-### You can download the TPF-JAM-TOOL here: -> [Download](https://github.com/jschuett/tpf-jam-tool/releases/tag/v1.8)
+### You can download the TPF-JAM-TOOL here: https://github.com/jschuett/tpf-jam-tool/releases/tag/v2.0beta
 #### NOTE:
 TPF-JAM-TOOL is for testing and is still under development!
 Please read the [installation](https://github.com/jschuett/tpf-jam-tool/wiki/Installation) instructions!
@@ -44,8 +44,8 @@ Please read the [installation](https://github.com/jschuett/tpf-jam-tool/wiki/Ins
 
 ## Prerequisites
 Make sure to have all these Applications pre-installed:
-- [TPF-JAM-TOOL ]()
-- [TPF-Client_v2.0.17+](https://github.com/zhdk/tpf-client)
+- [TPF-JAM-TOOL ](https://github.com/jschuett/tpf-jam-tool/)
+- [TPF-Client_v2.0.18+](https://github.com/zhdk/tpf-client)
 - [ICST Ambisonics Plugins](https://github.com/schweizerweb/icst-ambisonics-plugins/wiki)
   (Please install the [Pre-release v3.0.0.3]([url](https://github.com/schweizerweb/icst-ambisonics-plugins/releases)))
 ##### NOTE: The LV2 version of these Plugins is experimental and not jet-ready!!
