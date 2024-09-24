@@ -37,9 +37,11 @@ And now .... let's jam...
 
 ### You can download the TPF-JAM-TOOL here: https://github.com/jschuett/tpf-jam-tool/releases/tag/v2.0beta
 #### NOTE:
+
 TPF-JAM-TOOL is for testing and is still under development!
 Please read the [installation](https://github.com/jschuett/tpf-jam-tool/wiki/Installation) instructions!
 
+**Warning:**  TPF-JAM-TOOL has not been tested on [macOS Sequoia](https://www.apple.com/chde/macos/macos-sequoia/)
 ---
 
 ## Prerequisites
