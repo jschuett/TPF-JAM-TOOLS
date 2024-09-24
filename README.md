@@ -51,8 +51,7 @@ Make sure to have all these Applications pre-installed:
 ##### NOTE: The LV2 version of these Plugins is experimental and not jet-ready!!
 - [IEM-Plugin-Suite](https://plugins.iem.at/)
 - [Reaper.app ](https://www.reaper.fm/download.php)
-- [BlackHole](https://github.com/ExistentialAudio/BlackHole)
-  BlackHole is a modern macOS virtual audio loopback driver that allows applications to pass audio to other applications with zero additional latency. Donate $10.
+- [BlackHole](https://github.com/ExistentialAudio/BlackHole) is a modern macOS virtual audio loopback driver that allows applications to pass audio to other applications with zero additional latency. Donate $10.
 ##### NOTE: 
 After downloading, open the dmg file and drag the Reaper.app into the folder '/Applications/TPF-JAM-TOOL'. Open the Reaper.app with Ctrl-click or right-click.
 
@@ -68,7 +67,7 @@ You have completed all pre-installations and are up to date.
 	- Mic (CH1)
 	- Instrument (Keyboard) (CH2)
 2. be sure that your hardware works correctly with your Mac/PC
-3. create an aggregate (Mac) and name it as shown in the following picture. The correct order of components is crucial.
+3. create an Aggregate (Mac) and name it as shown in the following picture. The correct order of components is crucial. (Windows take [Virtual cable](https://vb-audio.com/Services/licensing.htm) (Donate $)
 4. by Mail invitation from 'Bandleader', you get all the needed information, like server address, room, and link to Livelab
 5. open Reaper, then choose "Setting" -> "Device" and select your 'Aggregate TPF-JAM-TOOL'.
 6. the left toolbar of the Reaper template contains all the necessary functions for a telematic connection.
