@@ -47,7 +47,7 @@ Make sure to have all these Applications pre-installed:
 - [TPF-JAM-TOOL ]()
 - [TPF-Client_v2.0.17+](https://github.com/zhdk/tpf-client)
 - [ICST Ambisonics Plugins](https://github.com/schweizerweb/icst-ambisonics-plugins/wiki)
-  (Please install the [Prerelease v3.0.0.3]([url](https://github.com/schweizerweb/icst-ambisonics-plugins/releases)))
+  (Please install the [Pre-release v3.0.0.3]([url](https://github.com/schweizerweb/icst-ambisonics-plugins/releases)))
 ##### NOTE: The LV2 version of these Plugins is experimental and not jet-ready!!
 - [IEM-Plugin-Suite](https://plugins.iem.at/)
 - [Reaper.app ](https://www.reaper.fm/download.php)
