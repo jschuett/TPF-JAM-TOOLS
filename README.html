@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="README_files/libs/clipboard/clipboard.min.js"></script>
+<script src="README_files/libs/quarto-html/quarto.js"></script>
+<script src="README_files/libs/quarto-html/popper.min.js"></script>
+<script src="README_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="README_files/libs/quarto-html/anchor.min.js"></script>
+<link href="README_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="README_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="README_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="README_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="README_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="tpf-jam-tool" class="level1">
+<h1>TPF-JAM-TOOL</h1>
+<p><img src="https://github.com/jschuett/tpf-jam-tool/blob/Build/Pictures/tpf-jam-reaper-tool.jpg" class="img-fluid" alt="TPF-JAM-TOOL - Overview"> Fig 1: TPF-JAM-TOOL in action. ## About</p>
+<p>TPF-JAM-TOOL is a low-latency ‘jamming tool’ that connects sixteen different jamming partners/locations. (Mac only)<br>
+TPF-JAM-TOOL further develops the previous tools ‘<a href="https://telematicperformance.com/tools/">tpf-tools</a>’ and ‘TPF-JAM-BASIC’. <a href="https://www.reaper.fm/">Reaper.fm</a> is one of the most widely used digital audio workstations (DAW) today. Reaper, as a DAW, is our choice because most of the parameters in Reaper can be operated via scripts (<a href="https://dail8859.github.io/LuaScript/">LuaScript</a>) and are available for retrieval, as well as having early audio routing. The idea behind the TPF-JAM-TOOL is to provide a very easy-to-use bundle with a wide variety of possibilities. In connection with the SNSF research project ‘<a href="https://networkperformance.space">spatial-dis-continuities-in-telematic-performances</a>’, many features have been incorporated into this tool. Over the years, we spent many hours communicating over Zoom as a team of artists and researchers, which always tired us out quickly from an acoustic point of view. After experimenting with Ambisonics and Binaural rendering, many of us became less tired because a more natural hearing sensation set in, especially in music making.</p>
+<p>This was the primary motivation to integrate the 3D audio research ‘<a href="https://ambisonics.ch/">Ambisonics at ICST</a>’ into the telematic applications in the <a href="https://www.zhdk.ch/en/researchproject/575742">spatial-dis-continuities-in-telematic-performances</a> project. The tools are freely available, and while the installation may take some time, it’s a worthwhile investment. The TPF-Client application handles firewall and IT settings, allowing you to focus on immediately connecting with other musicians and starting to jam. The digital audio workstation “Reaper 7.16”(the newest) is your digital mixing console. You can mix the incoming signals in a virtual room with Reaper and the pre-installed third-party plugins. Of course, the mix can also be recorded directly in Reaper, providing an instant recording of your jamming session.</p>
+<p>And now …. let’s jam…</p>
+<hr>
+</section>
+<section id="what-can-tpf-jam-tool-do" class="level1">
+<h1>What can TPF-JAM-TOOL do?</h1>
+<ul>
+<li>Low-latency bidirectional telematic jamming over Lan</li>
+<li>Two Inputs (Mic/Inst) sending to max 16-Destinations/Locations</li>
+<li>Receiving max. 16 locations</li>
+<li>Placement in 3D audio (binaural)</li>
+<li>Streaming a binaural Mix (2ch) over OBS</li>
+<li>Head tracking (Headphones)</li>
+<li>Recording</li>
+<li>Playback of audio from the DAW</li>
+<li>Rec/Play from external sources (e.g.&nbsp;Ableton)</li>
+<li>Play Video from the DAW</li>
+<li>The tools are freely available</li>
+</ul>
+<hr>
+<section id="you-can-download-the-tpf-jam-tool-here-httpsgithub.comjschuetttpf-jam-toolreleasestagv2.0beta" class="level3">
+<h3 class="anchored" data-anchor-id="you-can-download-the-tpf-jam-tool-here-httpsgithub.comjschuetttpf-jam-toolreleasestagv2.0beta">You can download the TPF-JAM-TOOL here: https://github.com/jschuett/tpf-jam-tool/releases/tag/v2.0beta</h3>
+<section id="note" class="level4">
+<h4 class="anchored" data-anchor-id="note">NOTE:</h4>
+<p>TPF-JAM-TOOL is for testing and is still under development! Please read the <a href="https://github.com/jschuett/tpf-jam-tool/wiki/Installation">installation</a> instructions!</p>
+<p><strong>Warning:</strong> TPF-JAM-TOOL has not been tested on <a href="https://www.apple.com/chde/macos/macos-sequoia/">macOS Sequoia</a></p>
+<hr>
+</section>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>Make sure to have all these Applications pre-installed: - <a href="https://github.com/jschuett/tpf-jam-tool/">TPF-JAM-TOOL</a> - <a href="https://github.com/zhdk/tpf-client">TPF-Client_v2.0.18+</a> - <a href="https://github.com/schweizerweb/icst-ambisonics-plugins/wiki">ICST Ambisonics Plugins</a> (Please install the <a href="%5Burl%5D(https://github.com/schweizerweb/icst-ambisonics-plugins/releases)">Pre-release v3.0.0.3</a>) ##### NOTE: The LV2 version of these Plugins is experimental and not jet-ready!! - <a href="https://plugins.iem.at/">IEM-Plugin-Suite</a> - <a href="https://www.reaper.fm/download.php">Reaper.app</a> - <a href="https://github.com/ExistentialAudio/BlackHole">BlackHole</a> is a modern macOS virtual audio loopback driver that allows applications to pass audio to other applications with zero additional latency. Donate $10. ##### NOTE: After downloading, open the dmg file and drag the Reaper.app into the folder ‘/Applications/TPF-JAM-TOOL’. Open the Reaper.app with Ctrl-click or right-click.</p>
+<hr>
+</section>
+<section id="usage" class="level2">
+<h2 class="anchored" data-anchor-id="usage">Usage</h2>
+<section id="quick-start" class="level3">
+<h3 class="anchored" data-anchor-id="quick-start">Quick Start</h3>
+<p>You have completed all pre-installations and are up to date.</p>
+<p>–&gt; Restart Computer! 1. first setup your Audio Interface and Hardware components, e.g. - Mic (CH1) - Instrument (Keyboard) (CH2) 2. be sure that your hardware works correctly with your Mac/PC 3. create an Aggregate (Mac) and name it as shown in the following picture. The correct order of components is crucial. (Windows take <a href="https://vb-audio.com/Services/licensing.htm">Virtual cable</a> (Donate $) 4. by Mail invitation from ‘Bandleader’, you get all the needed information, like server address, room, and link to Livelab 5. open Reaper, then choose “Setting” -&gt; “Device” and select your ‘Aggregate TPF-JAM-TOOL’. 6. the left toolbar of the Reaper template contains all the necessary functions for a telematic connection. 7. press the button ‘tpf-client on’ 8. go to Settings in ‘tpf-client’, and add your <location-name> and the <jamming-room-name>. 9. before connecting to the server, check your inputs in Reaper and unmute your local inputs 1 and 2 (the channels in tpf-client are green flickering) 10. to connect to the server, click the top left square in the tpf-client. If connected, it will turn blue. 11. one by one, all fellow musicians/locations will appear. You can connect by clicking the square on the left. You should now hear them all. 12. click “<a href="https://www.culturehub.org/livelab">LiveLab</a> on’ in the left toolbar of Reaper, and your main browser will open. Type in the LiveLab URL you received from the bandleader. In the settings of LiveLab choose ‘no audio’. 13. then click ‘start’. You should now be connected by video. (set Google-Chrome.app as your main Browser)</jamming-room-name></location-name></p>
+<p>Your audio should be connected to the TPF client and all other musicians/locations. You are connected to video via LiveLab in the Chrome browser. So, happy jamming…</p>
+<hr>
+</section>
+<section id="closing-the-session" class="level3">
+<h3 class="anchored" data-anchor-id="closing-the-session">Closing the session</h3>
+<ol type="1">
+<li>click ‘tpf-client off’. A message will remind you to disconnect all connections before.</li>
+<li>press FPHD and LiveLab off</li>
+<li>close your Reaper session</li>
+</ol>
+<p>For more detailed information, visit the Wiki https://github.com/jschuett/tpf-jam-tool/wiki –&gt;, which is still in progress!</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>## Bugs For any bug, issue, or suggestion, please open an issue <a href="https://github.com/jschuett/TPF-JAM-TOOL/discussions">here</a>.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="links-and-referencing" class="level2">
+<h2 class="anchored" data-anchor-id="links-and-referencing">Links and Referencing</h2>
+<ul>
+<li><a href="https://www.reaper.fm/">REAPER (DAW)</a>
+<ul>
+<li><a href="https://www.sws-extension.org/">SWS/S&amp;M</a></li>
+<li><a href="https://reapack.com/">ReaPack</a></li>
+</ul></li>
+<li>IEM Plugin Suite <a href="https://plugins.iem.at/" class="uri">https://plugins.iem.at/</a></li>
+<li>ICST Ambisonics Plugins <a href="https://github.com/schweizerweb/icst-ambisonics-plugins/wiki" class="uri">https://github.com/schweizerweb/icst-ambisonics-plugins/wiki</a></li>
+<li>TPF-Client 2.0+ <a href="https://github.com/zhdk/tpf-client" class="uri">https://github.com/zhdk/tpf-client</a> #### Optional #### Head Tracker Tools:</li>
+<li>NX Head Tracker Waves <a href="https://www.waves.com/hardware/nx-head-tracker" class="uri">https://www.waves.com/hardware/nx-head-tracker</a></li>
+<li>USB Head Tracker <a href="https://supperware.co.uk/headtracker-overview" class="uri">https://supperware.co.uk/headtracker-overview</a></li>
+<li>nvsonic <a href="https://github.com/trsonic/nvsonic-head-tracker" class="uri">https://github.com/trsonic/nvsonic-head-tracker</a></li>
+<li>RC HeadTracker <a href="https://github.com/dlktdr/HeadTracker" class="uri">https://github.com/dlktdr/HeadTracker</a></li>
+<li>OpenTrack (win/linux)</li>
+<li>SAKHeadTracker <a href="https://spatialaudiokit.github.io/headtracker/" class="uri">https://spatialaudiokit.github.io/headtracker/</a></li>
+</ul>
+<hr>
+<section id="note-to-reaper" class="level4">
+<h4 class="anchored" data-anchor-id="note-to-reaper">NOTE to REAPER:</h4>
+<p>Reaper is not free, but you get 60 days of evaluation free, with full functionality and no strings attached. All license purchases are final. If you own multiple computers, you may install the same license key on all of them as long as you only use REAPER on one computer at a time. <a href="https://www.reaper.fm/purchase.php">Purchasing Reaper</a> We have to thank all these wonderful resources: - <a href="https://www.sws-extension.org/">SWS/S&amp;M EXTENSION</a> - <a href="https://reapack.com/">ReaPack</a> Please donate them when you are happy with all these tools!</p>
+<hr>
+</section>
+</section>
+<section id="authors" class="level2">
+<h2 class="anchored" data-anchor-id="authors">Authors</h2>
+<p>Johannes Schuett / Roman Haefeli / Matthias Ziegler / Patrick Mueller</p>
+<hr>
+</section>
+<section id="license" class="level2">
+<h2 class="anchored" data-anchor-id="license">License</h2>
+<p>GPL 3.0 (see LICENSE.txt)</p>
+<hr>
+<p>©2024 <a href="https://www.zhdk.ch/forschung/icst">ICST/ZHdK</a>Switzerland</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
