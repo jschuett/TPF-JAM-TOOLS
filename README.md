@@ -51,8 +51,9 @@ Make sure to have all these Applications pre-installed:
 - [TPF-Client_v2.0.18+](https://github.com/zhdk/tpf-client)
 - [ICST Ambisonics Plugins](https://github.com/schweizerweb/icst-ambisonics-plugins/wiki)
   (Please install the [Pre-release v3.0.0.3]([url](https://github.com/schweizerweb/icst-ambisonics-plugins/releases)))
-##### NOTE: The LV2 version of these Plugins is experimental and not jet-ready!!
+   ##### NOTE: The LV2 version of these Plugins is experimental and not jet-ready!!
 - [IEM-Plugin-Suite](https://plugins.iem.at/)
+- [FaceMotionTracker](https://github.com/jschuett/tpf-jam-tool/blob/main/FacePoseHeadTracker.app.zip)
 - [Reaper.app ](https://www.reaper.fm/download.php)
 - [BlackHole](https://github.com/ExistentialAudio/BlackHole) is a modern macOS virtual audio loopback driver that allows applications to pass audio to other applications with zero additional latency. Donate $10.
 ##### NOTE: 
