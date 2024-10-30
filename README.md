@@ -100,7 +100,7 @@ For more detailed information, visit the Wiki https://github.com/jschuett/tpf-ja
 
 ----
 ## Bugs
-For any bug, issue, or suggestion, please open an issue
+For any bug report, or suggestion, please open an issue
 [here](https://github.com/jschuett/TPF-JAM-TOOL/discussions).
 
 ---
